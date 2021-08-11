@@ -27,6 +27,7 @@ p{
     margin: 20px;
     padding: 5px;
     text-align: center;
+    float: none;
 }
 
 a{
@@ -39,17 +40,37 @@ a{
     padding: 10px;
 }
 
-a:active{
-   
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-left: violet;
+    border-radius: 50px;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
+.active-link{
+    text-decoration: underline solid rgb(13, 78, 218) 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+    
+    
     
 }
 
-.active-link{
-    text-decoration: underline solid White 3px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+.text-p{
+    font-family: sans-serif;
+}
+
+.footer{
     background-color: black;
-    margin: 5px;
-    padding: 10px;
-    
+    margin: 10px;
+
 }
