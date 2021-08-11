@@ -38,6 +38,7 @@ a{
     font-size: medium;
     margin: 5px;
     padding: 10px;
+    
 }
 
 a:link, a:visited {
@@ -53,7 +54,14 @@ a:link, a:visited {
   
   a:hover, a:active {
     background-color: red;
+    color: black;
   }
+
+  ul{
+      list-style-type: none;
+      display: inline;
+      
+    }
 
 .active-link{
     text-decoration: underline solid rgb(13, 78, 218) 3px;
@@ -72,5 +80,7 @@ a:link, a:visited {
 .footer{
     background-color: black;
     margin: 10px;
+    padding: 10px;
+    color: white;
 
 }
