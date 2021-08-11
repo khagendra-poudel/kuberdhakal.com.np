@@ -22,3 +22,34 @@ p{
     border-radius: 20px;
     
 }
+
+.navbar{
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+a{
+    
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+    margin: 5px;
+    padding: 10px;
+}
+
+a:active{
+   
+    
+}
+
+.active-link{
+    text-decoration: underline solid White 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    background-color: black;
+    margin: 5px;
+    padding: 10px;
+    
+}
